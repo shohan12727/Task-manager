@@ -1,0 +1,7 @@
+cd /C/Users/ROWTECH/Downloads/gtk_windows_task_manager/gtk_task_manager
+
+
+$  ./task_manager.exe
+
+
+compile command :  gcc main.c -o ../task_manager.exe $(pkg-config --cflags --libs gtk+-3.0) -lpsapi -ladvapi32
